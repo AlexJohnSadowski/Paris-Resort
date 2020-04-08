@@ -74,7 +74,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of guests */}
         {/* room price */}
         <div className="form-group">
-          <label htmlFor="price">room price ${price}</label>
+          <label htmlFor="price">room price {price}€</label>
           <input
             type="range"
             name="price"
@@ -92,7 +92,7 @@ const RoomsFilter = ({ rooms }) => {
           <label htmlFor="price">room size </label>
           <div className="size-inputs">
             <input
-              type="number"
+              type="number" min="0"
               name="minSize"
               value={minSize}
               onChange={handleChange}
