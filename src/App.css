@@ -121,12 +121,13 @@ h6 {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: var(--mainBlack);
+  color:var(--mainBlack);
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
+  font-family: 'Montserrat', sans-serif;
 }
 .nav-links a:hover {
   color: var(--primaryColor);
@@ -151,7 +152,10 @@ h6 {
   }
   .nav-links a {
     margin: 0 1rem;
-    padding: 0.5rem 0;
+    padding: 2.25rem 0;
+    
+
+
   }
 }
 /* end of navbar */
