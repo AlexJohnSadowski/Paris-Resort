@@ -163,7 +163,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpg") center/cover no-repeat;
+  background: url("./images/paname.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,7 +176,7 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
